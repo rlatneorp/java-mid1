@@ -21,5 +21,8 @@ public class ToStringMain2 {
         ObjectPrinter.print(car);
         ObjectPrinter.print(dog1);
         ObjectPrinter.print(dog2);
+
+        String reValue = Integer.toHexString(System.identityHashCode(dog1));
+        System.out.println("reValue = " + reValue);
     }
 }
