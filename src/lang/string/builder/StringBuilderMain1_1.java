@@ -16,10 +16,8 @@ public class StringBuilderMain1_1 {
         sb.delete(4, 8);
         System.out.println("delete = " + sb);
 
-
         sb.reverse();
         System.out.println("reverse = " + sb);
-
 
         //StringBuilder -> String
         String string = sb.toString();
