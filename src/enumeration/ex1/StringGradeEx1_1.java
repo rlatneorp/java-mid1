@@ -1,6 +1,6 @@
 package enumeration.ex1;
 
-public class StringGradeEx0_1 {
+public class StringGradeEx1_1 {
 
     public static void main(String[] args) {
         int price = 10000;
